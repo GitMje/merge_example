@@ -7,7 +7,7 @@ AS
 
 BEGIN
 	SET NOCOUNT ON;
-
+	PRINT 'JoesChange'
     BEGIN TRY
       BEGIN TRANSACTION;
 
