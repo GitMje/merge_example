@@ -70,6 +70,7 @@
     <PostDeploy Include="Deploy\Script.PostDeployment.sql">
       <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
     </PostDeploy>
+    <Build Include="Tables\TonysTable.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Deploy\SqlSchemaCompare.scmp" />
